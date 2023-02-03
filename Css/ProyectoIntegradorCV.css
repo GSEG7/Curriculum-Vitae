@@ -1,0 +1,145 @@
+
+/*                                                                  HEADER - INFORMACIÓN PERSONAL     */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+  background-color: cadetblue;
+  border: 2px solid rgb(81, 134, 136);
+}
+
+.Foto-de-perfil img {
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(25, 82, 85);
+  font-family: 'Mukta Malar', sans-serif;
+}
+
+.info-personal {
+  margin: 5px;
+  color: black;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+
+/*                                                                          BOTONES         */
+
+
+#demo1, #demo2, #demo3,  #demo4, #demo5{
+  margin: 7px;
+  color: black;
+}
+
+#boton1{
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+  border: 3px solid rgb(25, 82, 85);
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+#boton1:hover{
+  background-color: orange;
+  box-shadow: 0 0 20px var(--color);
+  border-color: var(--color);
+}
+
+#boton2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+  border: 3px solid rgb(25, 82, 85);
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+#boton2:hover{
+  background-color: orange;
+  box-shadow: 0 0 20px var(--color);
+  border-color: var(--color);
+}
+
+#informacion-oculta{
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+
+/*                                                              SECTION - DATOS RESTANTES       */
+
+section article img{
+  margin-right: 2px;
+}
+
+section {
+  background-color: antiquewhite;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+section h2 {
+  background-color: rgb(236, 200, 159);
+  border: solid 2px rgb(167, 141, 112);
+}
+
+
+/*                                                            CAPA DE PRESENTACIÓN GENERAL        */
+
+
+body h1, h2, h3{
+  padding-left: 20px;
+}
+
+body h2{
+  color: rgb(151, 70, 27);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Kadwa', serif;
+
+}
+
+body h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: cadetblue;
+  font-family: 'Mukta Malar', sans-serif;
+
+}
+
+body{
+  background-image: url("https://images.pexels.com/photos/3591557/pexels-photo-3591557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  width: auto;
+  height: auto;
+                  
+}
+
+
+/*                                                                LÍNEAL FINAL                    */
+
+
+
+.espacio{
+  background-color: antiquewhite;
+  padding-bottom: 20px;
+}
+
+.linea{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid orange;
+  width: 800px;
+  margin: auto;
+}
