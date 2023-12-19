@@ -1,3 +1,3 @@
-# ProyectoFinalCV
+# Curriculum Vitae by Gabriel Orlando Segovia
 
-Este proyecto contiene un CV con datos no reales diseñado con HTML, CSS y JAVASCRIPT.
+Este proyecto contiene un CV diseñado en HTML, CSS y JAVASCRIPT. Los datos se extrajeron de una API generadora de Datos Personales Aleatorios.
